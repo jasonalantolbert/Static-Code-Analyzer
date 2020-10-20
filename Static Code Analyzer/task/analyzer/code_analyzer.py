@@ -1,3 +1,8 @@
+# Static Code Analyzer
+# Author: Jason Tolbert (https://github.com/jasonalantolbert)
+# Python Version: 3.9
+
+
 import argparse
 import ast
 import os
