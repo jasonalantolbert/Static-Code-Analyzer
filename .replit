@@ -1,0 +1,2 @@
+language = "python3"
+run = "python staticCodeAnalyzer/task/analyzer/code_analyzer.py"
