@@ -1,4 +1,3 @@
-import argparse
 import ast
 import os
 import re
@@ -168,13 +167,7 @@ def print_results(all_errors):
 def main():
     all_errors = {}
 
-    parser = argparse.ArgumentParser()
-    cli_args = ["path"]
-    for arg in cli_args:
-        parser.add_argument(arg)
-    args = parser.parse_args()
-
-    path = str(args.path)
+    path = input("Enter the path to a Python script or directory containing Python scripts:\n> ")
 
     if path.endswith(".py"):
         with open(path, "r") as file:
